@@ -17,11 +17,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
     res.render('Landing-page');
 });
-
-
-
-
-
 //shahd's part
 
 app.get('/admin', (req, res) => {
@@ -45,6 +40,11 @@ app.get('/admin', (req, res) => {
   })
 
   
+
+app.get('/indian', (req, res) => {
+    res.render('indian');
+});
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
