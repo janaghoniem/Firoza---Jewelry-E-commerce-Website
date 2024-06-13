@@ -5,5 +5,16 @@
     "express-session": "^1.18.0",
     "mongoose": "^8.4.1",
     "nodemon": "^3.1.3"
-  }
+  },
+  "name": "firoza-jewelry-e-commerce-website",
+  "description": "Functionalities:\r 1. User Authentication and Authorization\r 2. Product Management\r 3. Search and Filtering\r 4. Product Details and Imagery\r 5. Customization Options\r 6. Secure Checkout\r 7. Order Management and Tracking\r 8. Returns and Exchanges\r 9. Customer Support Integration\r 10. Promotions and Discounts\r 11. Educational Resources",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

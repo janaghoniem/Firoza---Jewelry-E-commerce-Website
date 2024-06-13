@@ -18,7 +18,35 @@ app.get('/', (req, res) => {
     res.render('Landing-page');
 });
 
+
+
+
+
+//shahd's part
+
+app.get('/admin', (req, res) => {
+    res.render("main.ejs")
+  })
+  
+  app.get('/AddCollection', (req, res) => {
+    res.render("AddCollection.ejs")
+  })
+  
+  app.get('/EditCollection', (req, res) => {
+    res.render("EditCollection.ejs")
+  })
+  
+  app.get('/AddProduct', (req, res) => {
+    res.render("addProduct.ejs")
+  })
+  
+  app.get('/EditProduct', (req, res) => {
+    res.render("EditProduct.ejs")
+  })
+
+  
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
+
