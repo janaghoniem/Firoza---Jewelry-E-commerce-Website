@@ -21,7 +21,11 @@ app.get('/', (req, res) => {
 
 app.get('/admin', (req, res) => {
     res.render("main.ejs")
-  })
+});
+
+app.get('/Collections', (req, res) => {
+    res.render("Collections")
+});
   
   app.get('/AddCollection', (req, res) => {
     res.render("AddCollection.ejs")
